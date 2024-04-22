@@ -1,0 +1,374 @@
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5 ;
+    font-family: 'Raleway';
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.2;
+    width: 100%;
+    color: #464646;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.tudo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* MENU INICIAL */
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topo__logo img {
+    width: 22px;
+    height: 22px;
+}
+
+.topo__logo .topo__logo__paragrafo {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.topo__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.topo__navegacao .topo__navegacao__lista-menu {
+    display: flex;
+    gap: 32px;
+}
+
+/* BIOGRAFIA */
+
+.bio {
+    width: 100%; 
+}
+
+.bio__conteudo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bio .bio__info__titulo {
+    font-weight: bold;
+    font-size: 3.25rem;
+    padding: 6% 0 0 0;
+}
+
+.bio .bio__info__paragrafo {
+    font-size: 1.37rem;
+    margin: 0;
+}
+
+.bio__links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bio__links .bio__links__lista{
+    display: flex;
+    gap: 32px;
+    padding: 2.4% 0 0 0;
+}
+
+.bio__links .bio__links__lista-item {
+    display: flex;
+    align-items: center;
+}
+
+.bio__links img {
+    padding: 0 0 0 4%;
+}
+
+/* SOBRE MIM */
+
+.sobre {
+    width: 100%;
+    background-color: #EAF2FD;
+    padding: 0 0 3.83% 0;
+}
+
+.sobre__conteudo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sobre__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 6.4% 0 0 0;
+}
+
+.sobre__paragrafo {
+    width: 75%;
+    font-size: 1rem;
+}
+
+/* SKILLS E HOBBIES  */
+.skills-hobbies-formacao {
+    width: 100%;
+}
+
+.habilidades__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.skills, .hobbies{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.skills__titulo, .hobbies__titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.caixa {
+    background-color: #fff;
+    width: 176px;
+    height: 174px;
+}
+
+.caixa .skills__img, .hobbies__img {
+    padding: 50% 1.36% 5% 10%;
+}
+
+.caixa .skills__paragrafo, .hobbies__paragrafo {
+    margin: 0;
+    padding: 0 0 0 10%;
+    font-size: 1rem;
+}
+
+/* FORMAÇÃO */
+
+.formacao {
+    width: 100%;
+    padding: 0 0 8.8% 0;
+    background-color: #EAF2FD;
+    margin: 8.8% 0 0 0;   
+}
+
+.formacao__aux {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+
+.formacao__titulo, .experiencia__titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 7% 0 0 0;
+}
+
+.caixa2 {
+    width: 368px;
+    height: 286px;
+    background-color: #fff;
+
+}
+
+.formacao__imagem {
+    width: 200px;
+    height: 170px;
+    margin: 78px 89px 0;
+}
+
+.caixa2 p {
+    padding: 30px 0 0 0;
+}
+
+/* EXPERIÊNCIA PROFISSIONAL */
+
+.experiencia {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia__conteudo img, .experiencia__conteudo2 img {
+    width: 772px;
+    height: 426px;    
+}
+
+.experiencia__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 3.2% 9%;
+}
+
+.experiencia__conteudo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 9% 3.2% 0;
+}
+
+.experiencia__conteudo__botao {
+    padding: 0 0 0 1.6%;
+}
+
+.botao1 {
+    width: 116px;
+    height: 51px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    
+}
+
+.botao2 {
+    width: 116px;
+    height: 51px;
+    background-color: #2A7AE4;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #2A7AE4;
+    margin: 0 16px 0 16px;
+}
+
+/* CONTATO */
+
+.contato {
+    width: 100%;
+    background-color: #EAF2FD;
+    padding: 6.4% 0 3.4% 0;
+
+}
+
+.contato__conteudo {
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap; 
+    gap: 16px;
+}
+
+
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input, .formcontato__textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px #C8C8C8;
+    resize: none;
+    font-size: 1.1rem;
+}
+
+.contato__titulo {
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+.contato__paragrafo {
+    padding: 0 0 32px 0;
+    margin: 0;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.formcontato__input {
+    width: 45rem;
+    height: 3.5rem;
+}
+
+.formcontato__textarea {
+    width: 50vw;
+}
+
+.formcontato__botao {
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: #fff;
+    border: 1px solid #2A7AE4;
+}
+
+/* RODAPÉ */
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer__rodape p{
+    margin: 0;
+    text-align: center;
+    padding: 2% 0;
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+    
+    /*title*/
+
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+
+    /* contato */
+
+}
+    
+    /*Mobile*/
+    @media (min-width: 425px) {
+    
+    /*Menu*/
+    
+    /*Titulo*/
+    
+    /*Sección sobre mi*/
+    
+    /*Skills*/
+
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    /*Contacto*/
+    
+    /*Footer*/
+    
+}
